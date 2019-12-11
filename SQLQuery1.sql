@@ -21,7 +21,7 @@ drop table ShoopInfo
 go
 create table ShoopInfo
 (
-	ShoopID int primary key identity(1,1),
+	ShoopID int primary key identity(1,1), --…Ã∆∑ID
 	ShoopName varchar(20) not null,
 	Shoopjifen int not null,
 	Price float not null,
