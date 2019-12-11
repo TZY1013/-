@@ -23,7 +23,7 @@ go
 --商品信息表
 create table ShoopInfo
 (
-	ShoopID int primary key identity(1,1),
+	ShoopID int primary key identity(1,1), --商品ID
 	ShoopName varchar(20) not null,
 	Shoopjifen int not null,
 	Price float not null,
